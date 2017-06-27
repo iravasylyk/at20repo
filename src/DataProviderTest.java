@@ -22,9 +22,9 @@ public class DataProviderTest {
 	@DataProvider(name = "dp")
     public Object[][] myDataProvider() {
         return new Object[][] { 
-        		{ 1, "Rock concert of the decade" }, 
+        		{ 1, "Rock mmckvjfc concert of the decade" }, 
         		{ 2, "Arrhythmia: Graffiti" }, 
-        		{ 3, "Battle of the Brass Bands" }
+        		{ 3, "Bmcnvcvnattle of the Brass Bands" }
         	};
     }
 	
