@@ -19,7 +19,7 @@ public class DataProviderTest {
 		testMap.put(3, "Battle of the Brass Bands");
 	}
 
-	@DataProvider(name = "dp")
+	@DataProvider(name = "dprovider")
     public Object[][] myDataProvider() {
         return new Object[][] { 
         		{ 1, "Rock concert of the decade" }, 
