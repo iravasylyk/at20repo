@@ -8,7 +8,7 @@ public class TestNGExample {
 		return a + b;
 	}
 	
-	@Test (groups = "add")
+	@Test (groups = "addadd")
 	public void testAdd(){
 		int expectedResult = 6;
 		Reporter.log("asserting add method: ", true);
