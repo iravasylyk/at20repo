@@ -8,14 +8,14 @@ public class TestExample {
 	Random generator = new Random();
 	
 	@BeforeTest
-	public int a(){
+	public int aTest(){
 		
 		int num = generator.nextInt(100);
 		return num;
 	}
 	
 	@BeforeMethod
-	public void before(){
+	public void beforeMethod(){
 		System.out.println("@BeforeMethod");
 	}
 
